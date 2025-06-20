@@ -28,6 +28,7 @@ int main() {
 	for (int j = 0; j < len2; ++j, ++i) {
 		result[i] = str2[j];
 	}
+
 	// Null-terminate the result
 	result[i] = '\0';
 
